@@ -44,7 +44,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _fuelParametres: {fileID: 11400000, guid: fe813e8afd227664a9db220657f7aa3f, type: 2}
-  _fuelIndicator: {fileID: 0}
 --- !u!1 &2034398993130314795
 GameObject:
   m_ObjectHideFlags: 0
@@ -5038,7 +5037,7 @@ GameObject:
   - component: {fileID: 4242695209821378256}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5072,11 +5071,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fd0764b1d5b5434d9a108e4bab7056b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _parameters: {fileID: 11400000, guid: 08c789dbe3ae5db4cb4803d8d013b562, type: 2}
-  _gamePad: {fileID: 0}
-  _fuelSystem: {fileID: 2079990343}
-  _worldParameters: {fileID: 11400000, guid: 087dbbd1216b7a0428695a6762d09628, type: 2}
-  _worldBorders: {fileID: 0}
 --- !u!114 &6501040419220014631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5089,7 +5083,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81d53444b475ce342ab86a6f04baeeb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameCoins: {fileID: 0}
 --- !u!114 &5285566634921946619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5102,7 +5095,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d3ccab37bef6c646a78941bb33efdf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthBar: {fileID: 0}
 --- !u!114 &5775536948100312696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5116,7 +5108,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inGameScoreText: {fileID: 0}
-  _playerTransform: {fileID: 4242695210210813449}
 --- !u!61 &4242695209821378254
 BoxCollider2D:
   m_ObjectHideFlags: 0

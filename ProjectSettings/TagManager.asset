@@ -11,6 +11,7 @@ TagManager:
   - ship
   - asteroid
   - WorldBorders
+  - Coins
   layers:
   - Default
   - TransparentFX

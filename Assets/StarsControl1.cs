@@ -4,12 +4,12 @@ using System.Xml.Serialization;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StarsControl : MonoBehaviour
+public class StarsControl1 : MonoBehaviour
 {
     
 
     public void goToOneLvl()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 }

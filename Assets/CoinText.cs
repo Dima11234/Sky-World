@@ -1,21 +1,22 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine;
 
 public class CoinText : MonoBehaviour
 {
+    Text CoinTexts;
     public static int Coin;
-    Text text;
     void Start()
     {
-        text = GetComponent<Text>();
-        Coin = 0;
+        CoinTexts = GetComponent<Text>();
+        Coin = PlayerPrefs.GetInt("Coins", Coin);
     }
 
     // Update is called once per frame
     void Update()
     {
-        text.text = Coin.ToString();
+        CoinTexts.text = Coin.ToString();
     }
 }
+
